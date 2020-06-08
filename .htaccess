@@ -1,0 +1,8 @@
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php73-script .php
+suPHP_ConfigPath /home/primecreditopess1/
+##### LOCAWEB - NAO REMOVER #####
+
